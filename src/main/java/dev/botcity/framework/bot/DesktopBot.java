@@ -840,7 +840,7 @@ public class DesktopBot {
 	}
 	
 	private void click(int waitAfter) {
-		moveAndclick();
+		clickRelative(visualElem.getWidth()/2, visualElem.getHeight()/2);
 		sleep(waitAfter);
 	}
 	
